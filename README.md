@@ -1,11 +1,11 @@
 # openmrs-distro-oclqa
-QA Environment for the OCL Subscription Module
+
+
 <img src="https://cloud.githubusercontent.com/assets/668093/12567089/0ac42774-c372-11e5-97eb-00baf0fccc37.jpg" alt="OpenMRS"/>
 
-OCL Subscription Module (Design Page)
+QA Environment for the OCL Subscription Module
 
-Development board
-Development board
+OCL Subscription Module (Design Page)
 
 Development environment
 Please make sure you have the following installed:
@@ -16,7 +16,7 @@ Maven
 OpenMRS SDK, see installation instructions
 Next run this command to setup OpenMRS server (just the first time):
 
-$ mvn openmrs-sdk:setup -DserverId=refapp -Ddistro=referenceapplication:2.4
+$ mvn openmrs-sdk:setup -DserverId=refapp -Ddistro=referenceapplication:2.11
 # Note: Pick default values for everything except MySQL username and password
 If there are any issues with setting up the server, check out OpenMRS SDK documentation
 
